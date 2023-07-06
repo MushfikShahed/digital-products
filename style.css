@@ -26,4 +26,33 @@
 .item:hover{
 color: rgb(255, 0, 89);
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tittle{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(255, 1, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 
