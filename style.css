@@ -55,4 +55,16 @@ color: rgb(255, 0, 89);
     border: none;
     border-radius: 5px;
 }
-
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+    font-size: 15px;
+}
+.about-tittle{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
