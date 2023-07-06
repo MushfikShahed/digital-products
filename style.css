@@ -98,10 +98,35 @@
     padding: 5px;
 }
 .service-container{
+    /* background-color: rgba(7, 3, 3, 0.753); */
     display: flex;
     justify-content:space-around;
     padding: 20px;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.service-container{
-    background-color: rgba(7, 3, 3, 0.753);
+.box{
+    margin: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #242121;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.footer-logo{
+    width: 140px;
+}
+.footer-content{
+    display: inline-block;
+    margin: 50px 20px;
+    padding: 30px 5px;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
 }
